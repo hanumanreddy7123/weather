@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather Forecast</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-slate-300">
+        <p class="text-center text-2xl underline"> Weather Forecast</p>
+        <div>
+            <label for="infield" class="font-semibold text-lg" style="margin-left: 2px;">Enter City Name</label>
+            <br>
+        <input type="text" id="infield" style="margin-left: 2px;" placeholder="city">
+        <br><br>
+        <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+        type="button" id="btn" style="margin-left: 2px;" onclick="myfunction()">Submit</button>
+        <br>
+        </div>
+        <canvas id="myChart" width="400" height="100"></canvas>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+        <script src="./pr.js"></script>
+        <div id="temp" class=" text-center text-lg">
+        
+
+        </div>
+    </body>
+</html>
